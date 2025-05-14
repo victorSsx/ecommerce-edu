@@ -3,6 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "prettier": {
+    "plugins": ["prettier-plugin-tailwindcss"]
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -27,6 +30,8 @@
     "init": "^0.1.2",
     "npx": "^10.2.2",
     "postcss": "^8.5.3",
+    "prettier": "^3.5.3",
+    "prettier-plugin-tailwindcss": "^0.6.11",
     "tailwindcss": "^4.1.6",
     "vite": "^6.3.5"
   }
