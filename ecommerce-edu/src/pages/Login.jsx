@@ -3,7 +3,7 @@ function Login() {
     return(
 
         <>
-        <h1 className="text-2x1 font-bold">Login</h1>
+        <h1 className="text-2x1 font-bold">Login check</h1>
         </>
     )
 }
