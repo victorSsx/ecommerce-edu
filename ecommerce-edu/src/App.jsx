@@ -1,3 +1,5 @@
+import Navbar from './components/Navbar/navbar';
+
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import Product from './pages/Product';
@@ -6,11 +8,14 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import Checkout from './pages/Checkout';
 
+
 function App() {
 
   return (
     <>
     <div>
+      <Navbar />
+    <div className='p-4'>
       <Routes>
       <Route path='/' element={<Home />} />
     
@@ -21,7 +26,7 @@ function App() {
       <Route path='/checkout' element={<Checkout />} />
       </Routes>
     </div>
-      
+    </div>
     </>
   )
 }
