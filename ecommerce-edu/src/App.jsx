@@ -1,4 +1,5 @@
-import Navbar from './components/navbar/navbar';
+import Navbar from './components/navbar/Navbar';
+import Footer from './components/footer/Footer';
 
 import { Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
@@ -26,6 +27,7 @@ function App() {
       <Route path='/checkout' element={<Checkout />} />
       </Routes>
     </div>
+    <Footer />
     </div>
     </>
   )
